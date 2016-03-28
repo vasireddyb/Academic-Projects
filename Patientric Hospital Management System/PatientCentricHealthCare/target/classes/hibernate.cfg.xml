@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/healthcare</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">root</property>
+        <!-- <property name="hibernate.hbm2ddl.auto">create</property> --> 
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        
+        <mapping class="org.healthcare.hospitalapp.model.employee.AssistantDoctor"/> 
+        <mapping class="org.healthcare.hospitalapp.model.employee.Doctor"/> 
+        <mapping class="org.healthcare.hospitalapp.model.employee.Employee"/>
+        <mapping class="org.healthcare.hospitalapp.model.employee.LabAssistant"/>
+        <mapping class="org.healthcare.hospitalapp.model.employee.Pharmacist"/>
+        <mapping class="org.healthcare.hospitalapp.model.employee.UserAccount"/>
+        
+        <mapping class="org.healthcare.hospitalapp.model.encounter.Assessment"/>
+        <mapping class="org.healthcare.hospitalapp.model.encounter.CommunicationPlan"/>
+        <mapping class="org.healthcare.hospitalapp.model.encounter.Drug"/>
+        <mapping class="org.healthcare.hospitalapp.model.encounter.Encounter"/>
+        <mapping class="org.healthcare.hospitalapp.model.encounter.MedicationDetails"/>
+        <mapping class="org.healthcare.hospitalapp.model.encounter.MedicationGuide"/>
+        <mapping class="org.healthcare.hospitalapp.model.encounter.VitalSign"/>
+        
+        <mapping class="org.healthcare.hospitalapp.model.person.Person"/>
+        <mapping class="org.healthcare.hospitalapp.model.person.Patient"/>
+        
+        <mapping class="org.healthcare.hospitalapp.model.workrequest.WorkRequest"/>
+        <mapping class="org.healthcare.hospitalapp.model.workrequest.ConsultationWorkRequest"/>
+        <mapping class="org.healthcare.hospitalapp.model.workrequest.MedicationWorkRequest"/>
+    </session-factory>
+</hibernate-configuration>

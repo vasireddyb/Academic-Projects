@@ -1,0 +1,20 @@
+db.RoutesModel.insert({"routeID" : 1, "username" : "user", "source" : "Boston, MA, USA", "destination" : "New York, NY, USA", "personcount" : 4, "personcountfilled" : 3, "proximity" : 5, "cost" : 100, "startdate" : ISODate("2015-08-08T04:00:00Z"), "starttime" : ISODate("1970-01-01T13:08:00Z"), "contact" : "email", "contactdetails":"h@h", "people" : ["user"]})
+
+db.RoutesModel.insert({"routeID" : 2, "username" : "user", "source" : "Boston, MA, USA", "destination" : "New York, NY, USA", "personcount" : 4, "personcountfilled" : 3, "proximity" : 5, "cost" : 200, "startdate" : ISODate("2015-06-01T04:00:00Z"), "starttime" : ISODate("1970-01-01T13:08:00Z"), "contact" : "email", "contactdetails":"h@h", "people" : ["user"]})
+
+
+db.RoutesModel.insert({"routeID" : 3, "username" : "user", "source" : "Boston, MA, USA", "destination" : "New York, NY, USA", "personcount" : 4, "personcountfilled" : 3, "proximity" : 5, "cost" : 300, "startdate" : ISODate("2015-05-01T04:00:00Z"), "starttime" : ISODate("1970-01-01T13:08:00Z"), "contact" : "email", "contactdetails":"h@h", "people" : ["user"]})
+
+
+db.RoutesModel.insert({"routeID" : 4, "username" : "user", "source" : "Boston, MA, USA", "destination" : "New York, NY, USA", "personcount" : 4, "personcountfilled" : 3, "proximity" : 5, "cost" : 400, "startdate" : ISODate("2015-04-01T04:00:00Z"), "starttime" : ISODate("1970-01-01T13:08:00Z"), "contact" : "email", "contactdetails":"h@h", "people" : ["user"]})
+
+
+db.RoutesModel.insert({"routeID" : 5, "username" : "user2", "source" : "Warwick, RI, USA", "destination" : "New York, NY, USA", "personcount" : 4, "personcountfilled" : 3, "proximity" : 5, "cost" : 100, "startdate" : ISODate("2015-08-08T04:00:00Z"), "starttime" : ISODate("1970-01-01T13:08:00Z"), "contact" : "email", "contactdetails":"h@h", "people" : ["user2"]})
+
+db.RoutesModel.insert({"routeID" : 6, "username" : "user2", "source" : "Boston, MA, USA", "destination" : "Warwick, RI, USA", "personcount" : 4, "personcountfilled" : 3, "proximity" : 5, "cost" : 200, "startdate" : ISODate("2015-06-01T04:00:00Z"), "starttime" : ISODate("1970-01-01T13:08:00Z"), "contact" : "email", "contactdetails":"h@h", "people" : ["user2"]})
+-------------------------
+
+db.RoutesModel.insert({"routeID" : 1, "username" : "user2", "source" : "New Haven, CT, USA", "destination" : "New York, NY, USA", "personcount" : 4, "personcountfilled" : 3, "proximity" : 5, "cost" : 300, "startdate" : ISODate("2015-05-01T04:00:00Z"), "starttime" : ISODate("1970-01-01T13:08:00Z"), "contact" : "email", "contactdetails":"h@h", "people" : ["user"]})
+
+
+db.RoutesModel.insert({"routeID" : 1, "username" : "user2", "source" : "Warwick, RI, USA" : "New York, NY, USA", "personcount" : 4, "personcountfilled" : 3, "proximity" : 5, "cost" : 400, "startdate" : ISODate("2015-04-01T04:00:00Z"), "starttime" : ISODate("1970-01-01T13:08:00Z"), "contact" : "email", "contactdetails":"h@h", "people" : ["user"]})

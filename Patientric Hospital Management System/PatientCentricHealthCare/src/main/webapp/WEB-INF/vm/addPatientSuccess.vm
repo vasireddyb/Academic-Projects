@@ -1,0 +1,21 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+<title>People's Welfare Hospital</title>
+
+</head>
+<body>
+
+      <ul>
+        <li class="active"><a href="backLogin">Home</a></li>
+      </ul>
+
+	</header>
+	<section>
+		<h1>Patient added successfully. You can now login using your credentials</h1>
+	</section>
+<footer>
+		
+	</footer>
+</body>
+</html>

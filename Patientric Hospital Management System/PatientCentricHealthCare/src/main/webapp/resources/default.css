@@ -1,0 +1,225 @@
+@CHARSET "UTF-8";
+/* === color === */
+
+a, a:hover,a:focus,a:active, footer a.text-link:hover, strike, .post-meta span a:hover, footer a.text-link, 
+ul.meta-post li a:hover, ul.cat li a:hover, ul.recent li h6 a:hover, ul.portfolio-categ li.active a, ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.related-post li h4 a:hover, span.highlight,article .post-heading h3 a:hover,
+.navbar .nav > .active > a,.navbar .nav > .active > a:hover,.navbar .nav > li > a:hover,.navbar .nav > li > a:focus,.navbar .nav > .active > a:focus, .validation  { 
+	color:#FFF;
+}
+
+.navbar-brand span{
+    color: #FFF;
+}
+
+header .nav li a:hover,
+header .nav li a:focus,
+header .nav li.active a,
+header .nav li.active a:hover,
+header .nav li a.dropdown-toggle:hover,
+header .nav li a.dropdown-toggle:focus,
+header .nav li.active ul.dropdown-menu li a:hover,
+header .nav li.active ul.dropdown-menu li.active a{
+	color:#FFF;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color:#FFF;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	color:#FFF;
+}	
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+	color:#FFF;
+}
+/* === background color === */
+
+.custom-carousel-nav.right:hover, .custom-carousel-nav.left:hover, 
+.dropdown-menu li:hover,
+.dropdown-menu li a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a, 
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover,
+.pagination ul > .active > a:hover,
+.pagination ul > .active > a,
+.pagination ul > .active > span,
+.flex-control-nav li a:hover, 
+.flex-control-nav li a.active {
+  background-color: #FFF;
+}
+
+
+.breadcrumb {
+  background-color: #FFF;
+}
+
+/* === border color === */
+.pagination ul > li.active > a,
+.pagination ul > li.active > span, a.thumbnail:hover, input[type="text"].search-form:focus {
+	border:1px solid #FFF;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #FFF;
+}
+
+input:focus {
+	border-color: #FFF;
+}
+
+
+#sendmessage {
+	color: #FFF;
+}
+
+.pullquote-left {
+	border-left:5px solid #FFF;
+}
+
+.pullquote-right {
+	border-right:5px solid #FFF;
+}
+
+/* cta */
+
+.cta-text h2 span {
+	color: #FFF;
+}
+
+ul.clients li:hover {
+	border:4px solid #FFF;
+}
+
+/* box */
+.box-bottom {
+	background:#FFF;
+}
+
+/* buttons */
+.btn-dark:hover,.btn-dark:focus,.btn-dark:active  {
+  background: #FFF;
+  border:1px solid #FFF;
+}
+
+.btn-theme {
+  border:1px solid #FFF;
+  background: #FFF;
+}
+
+/* modal styled */
+.modal.styled .modal-header {
+  background-color: #FFF;
+}
+
+
+/* blog */
+.post-meta {
+	border-top:4px solid #FFF;
+}
+
+.post-meta .comments a:hover  {
+	color:#FFF;
+}
+
+.widget ul.tags li a:hover {
+	background: #FFF;
+}
+
+.recent-post .text h5 a:hover{
+	color:#FFF;
+}
+
+/* pricing box */
+
+.pricing-box-alt.special .pricing-heading {
+	background: #FFF;
+}
+
+
+/* portfolio */
+.item-thumbs .hover-wrap .overlay-img-thumb {
+	background: #FFF;	
+}
+
+
+/* pagination */
+#pagination a:hover {
+    background: #FFF;
+}
+
+/* pricing box */
+.pricing-box.special .pricing-offer{
+	background: #FFF;
+}
+
+
+/* fontawesome icons */
+.icon-square:hover,
+.icon-rounded:hover,
+.icon-circled:hover {
+    background-color: #FFF;
+}
+[class^="icon-"].active,
+[class*=" icon-"].active {
+    background-color: #FFF;
+}
+
+/* fancybox */
+.fancybox-close:hover {
+	background-color:#FFF;
+}
+.fancybox-nav:hover span {
+	background-color:#FFF;
+}
+
+/* parallax c slider */
+.da-slide .da-link:hover{
+	background: #FFF;
+	border: 4px solid #FFF;
+}
+
+.da-dots span{
+	background: #FFF;
+}
+
+/* flexslider */
+#featured .flexslider .slide-caption {
+	border-left:5px solid #FFF;
+}
+
+/* Nivo slider */
+.nivo-directionNav a:hover {
+    background-color: #FFF;
+}
+.nivo-caption, .caption {
+	border-bottom: #FFF 5px solid;
+}
+
+/* footer */
+footer{
+	background:#FFF;
+}
+#sub-footer{
+	background:#FFF;
+}
+

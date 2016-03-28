@@ -1,0 +1,89 @@
+.clear{
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+#rightcontent ul{
+	list-style: none;
+	list-style-position: outside;
+}
+#rightcontent ul.menu li{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: -1px;
+}
+#rightcontent ul.menu li{
+	font-weight: 700;
+	display: block;	
+	background: #5E7AA0;
+	margin-bottom: -1px;
+	border: 1px solid #000;
+	border-width: 1px 1px 1px 1px;
+	position: relative;
+	color: #fff;
+	cursor: pointer;
+}
+#rightcontent ul.menu li a {
+padding: 5px 10px;
+color: #FFFFFF;
+}
+
+#rightcontent ul.menu li.active{
+	background: #B55849;
+	top: 1px;
+	border-bottom: 0;
+	color: #fff;
+}
+/******* /MENU *******/
+/******* CONTENT *******/
+.tabcontent{
+	margin: 0pt auto;
+	background: #efefef;
+	background: #fff;
+	border: 1px solid #000;
+	text-align: left;
+	padding: 10px;
+	padding-bottom: 20px;
+	font-size: 11px;
+}
+.tabcontent h1{
+	line-height: 1em;
+	vertical-align: middle;
+	height: 48px;
+	padding: 10px 10px 10px 52px;
+	font-size: 32px;
+}
+/******* /CONTENT *******/
+/******* NEWS *******/
+.tabcontent.all{
+	display: block;
+}
+/******* /NEWS *******/
+/******* TUTORIALS *******/
+.tabcontent.new{
+	display: none;
+}
+/******* /TUTORIALS *******/
+/******* LINKS *******/
+.tabcontent.open{
+	display: none;
+}
+
+.tabcontent.assigned{
+	display: none;
+}
+
+.tabcontent.pending{
+	display: none;
+}
+
+.tabcontent.cancelled{
+	display: none;
+}
+
+
+/******* /LINKS *******/

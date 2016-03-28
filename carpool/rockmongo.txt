@@ -1,0 +1,4 @@
+nPlease make note of these MongoDB credentials:
+  RockMongo User: admin
+  RockMongo Password: f73CVr7LRGne
+URL: http://carpoolapp-passportauth.rhcloud.com/

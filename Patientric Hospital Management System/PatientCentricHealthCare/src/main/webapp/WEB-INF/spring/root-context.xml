@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		<!-- <bean id="userAccountDAO" class="org.healthcare.hospitalapp.data.UserAccountDAO"></bean>
+		<bean id="employeeDAO" class="org.healthcare.hospitalapp.data.EmployeeDAO"></bean> 
+		<bean id="userValidator" class="org.healthcare.hospitalapp.validator.UserValidator"></bean>-->
+		
+</beans>
